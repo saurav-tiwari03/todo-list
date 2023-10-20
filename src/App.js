@@ -11,7 +11,6 @@ function App() {
 
   function clearAllHandler () {
     if(add !==""){
-      
       setAdd([]);
       toast.success('Cleared Task list');
     }
