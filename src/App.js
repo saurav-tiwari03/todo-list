@@ -11,9 +11,11 @@ function App() {
 
   function clearAllHandler () {
     if(add !==""){
-      
       setAdd([]);
       toast.success('Cleared Task list');
+    }
+    else if (add === ""){
+      toast.success("Task list is empty");
     }
   }
 
