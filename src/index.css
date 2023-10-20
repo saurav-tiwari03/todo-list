@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    user-select: none;
+    overflow: hidden;
+}
+h1 {
+    text-shadow: 2px 2px 4px #f94242;
+    color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+input {
+    caret-color:  blue;
+    transition: all .3s;
+}
+input:focus {
+    width: 300px;
+}
