@@ -14,6 +14,8 @@ function App() {
     localStorage.setItem('tasks', JSON.stringify(tasks));
   }, [tasks]);
 
+  //Open to source
+
   function clearAllHandler() {
     if (tasks.length !== 0) {
       setTasks([]);
